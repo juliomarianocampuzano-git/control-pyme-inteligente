@@ -1,0 +1,79 @@
+============================================================
+   PREGUNTAS FRECUENTES
+   Control PyME Inteligente Offline v1.1
+============================================================
+
+
+P: ¿Necesito internet para usar el sistema?
+R: No. La aplicacion principal funciona completamente
+   offline. Solo necesita internet para abrir Gmail,
+   Outlook o WhatsApp Web desde el sistema.
+
+P: ¿Donde se guardan mis datos?
+R: En el navegador de su computadora (almacenamiento
+   local). No se suben a ningun servidor externo.
+
+P: ¿Que pasa si cambio de computadora?
+R: Debe exportar un backup antes de cambiar. Con el
+   archivo .json de backup puede restaurar todos sus
+   datos en la nueva computadora.
+
+P: ¿Puedo tener varias empresas o negocios?
+R: Si. Cada empresa tiene su espacio separado. Los
+   datos no se mezclan entre empresas.
+
+P: ¿Que formato deben tener mis archivos?
+R: Excel (.xlsx) o CSV (.csv). Use las plantillas
+   incluidas en 3_PLANTILLAS_PARA_COMPLETAR/ para
+   asegurarse de que las columnas sean correctas.
+
+P: ¿Puedo cargar mis propios Excel sin usar plantillas?
+R: Si, pero verifique que los nombres de columnas
+   coincidan exactamente con los esperados por el
+   sistema. Recomendamos usar las plantillas.
+
+P: El sistema no carga mi CSV. ¿Que hago?
+R: Verifique que los nombres de columnas sean exactos.
+   Use las plantillas como referencia. Revise que las
+   fechas esten en formato AAAA-MM-DD.
+
+P: ¿El sistema envia mensajes de WhatsApp solo?
+R: No. Solo prepara el mensaje y abre WhatsApp Web
+   con el texto listo. Usted decide si enviarlo.
+
+P: ¿Puedo usar el sistema en el celular?
+R: El sistema esta disenado principalmente para
+   computadoras de escritorio o laptop. Puede verse
+   en mobile pero la experiencia es mejor en PC.
+
+P: ¿Que navegadores funcionan?
+R: Google Chrome y Microsoft Edge. No usar Firefox
+   ni Internet Explorer.
+
+P: ¿Como hago una copia de seguridad?
+R: Busque el boton "Exportar backup" en el sistema.
+   Se descargara un archivo .json con todos sus datos.
+   Guardelo en 5_BACKUPS_DEL_CLIENTE o en un pendrive.
+
+P: ¿Con que frecuencia debo hacer backup?
+R: Al menos una vez por semana, o cada vez que cargue
+   datos importantes. Antes de cerrar el sistema.
+
+P: ¿Que son las "acciones inteligentes"?
+R: Son sugerencias automaticas que el sistema genera
+   analizando sus datos. Por ejemplo: que productos
+   reponer, a quien cobrar, que vencimientos revisar.
+   No requieren internet ni IA externa.
+
+P: ¿El sistema calcula precios de venta automaticamente?
+R: Si. Puede configurar un porcentaje de ganancia y
+   el sistema sugiere el precio de venta segun el costo.
+
+P: ¿Se pueden borrar datos cargados?
+R: Si, desde el sistema puede limpiar y recargar datos.
+   Siempre haga backup antes de borrar informacion.
+
+============================================================
+   Control PyME Inteligente Offline v1.1
+   Version final comercial - Mayo 2026
+============================================================
