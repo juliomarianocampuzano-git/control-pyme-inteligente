@@ -1,0 +1,85 @@
+============================================================
+   CONTROL PYME INTELIGENTE OFFLINE
+   GUIA RAPIDA EN 5 PASOS
+============================================================
+
+
+-----------------------------------------------------------
+PASO 1 — ABRIR EL SISTEMA
+-----------------------------------------------------------
+
+Entre a la carpeta: 1_APP_PORTABLE
+Haga doble clic en: dashboard.html
+
+Abrir con Google Chrome o Microsoft Edge.
+
+
+-----------------------------------------------------------
+PASO 2 — CREAR SU EMPRESA
+-----------------------------------------------------------
+
+Cargue los datos de su negocio:
+- Nombre del comercio o empresa
+- Tipo de negocio (taller, comercio, estudio, etc.)
+- Moneda que usa
+- Datos de contacto (WhatsApp, email)
+
+Cada empresa queda separada. Puede tener varias.
+
+
+-----------------------------------------------------------
+PASO 3 — CARGAR SU EXCEL O CSV
+-----------------------------------------------------------
+
+Use las plantillas incluidas en:
+3_PLANTILLAS_PARA_COMPLETAR/
+
+Complete los datos en Excel y cargue el archivo.
+
+NO invente nombres de columnas.
+Use exactamente los nombres que estan en las plantillas.
+
+Puede cargar: productos, clientes, proveedores,
+ventas, compras, gastos y servicios.
+
+
+-----------------------------------------------------------
+PASO 4 — REVISAR LAS ACCIONES INTELIGENTES
+-----------------------------------------------------------
+
+El sistema analiza automaticamente lo que cargo y muestra:
+
+- Que productos necesitan reposicion
+- A quien debe cobrar hoy
+- Que precios conviene revisar
+- Que vencimientos se acercan esta semana
+- Que revisar hoy
+
+Todo funciona offline, sin internet.
+
+
+-----------------------------------------------------------
+PASO 5 — EXPORTAR BACKUP
+-----------------------------------------------------------
+
+Antes de cerrar, exporte una copia de seguridad.
+
+Busque el boton "Exportar backup" en el sistema.
+Guarde el archivo en la carpeta: 5_BACKUPS_DEL_CLIENTE
+
+Tambien puede guardarlo en un pendrive o nube personal.
+
+Sin backup, puede perder sus datos si cambia de PC.
+
+
+============================================================
+CONSEJO:
+
+Si no sabe por donde empezar, empiece cargando
+productos, clientes y ventas.
+Con esos tres archivos ya puede ver las acciones
+inteligentes mas importantes de su negocio.
+============================================================
+
+   Control PyME Inteligente Offline v1.1
+   Para soporte, contacte al proveedor del sistema.
