@@ -1,0 +1,7 @@
+fecha,concepto,categoria,proveedor,monto,estado,vencimiento,medio_pago,notas
+2026-04-01,Alquiler del local,alquiler,Inmobiliaria Centro,45000,Pagado,,transferencia,
+2026-04-05,Luz y electricidad,servicios,EPEC,8200,Pagado,,efectivo,
+2026-04-10,Internet y telefono,comunicaciones,Claro,3500,Pagado,,debito automatico,
+2026-04-15,Limpieza mensual,limpieza,Servicios Limpios,6000,Pagado,,efectivo,
+2026-05-01,Alquiler del local,alquiler,Inmobiliaria Centro,45000,Pendiente,2026-05-10,transferencia,
+2026-05-05,Publicidad redes sociales,marketing,Agencia Digital,12000,Pendiente,2026-05-15,transferencia,
