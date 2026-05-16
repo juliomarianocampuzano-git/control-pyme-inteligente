@@ -1,0 +1,2 @@
+nombre,codigo,categoria,proveedor,stockActual,stockMinimo,costoUnitario,precioVenta,ubicacion,notas
+Producto Ejemplo,PROD-001,General,Proveedor Ejemplo,10,2,1000,2000,Deposito A,
