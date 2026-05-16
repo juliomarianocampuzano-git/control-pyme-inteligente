@@ -1,0 +1,11 @@
+nombre,codigo,categoria,proveedor,stockActual,stockMinimo,costoUnitario,precioVenta,ubicacion,notas
+Filtro de aceite Honda,FIL-001,Filtros,Distribuidora Norte,8,3,850,1700,Estante A1,Compatible CG 150
+Pastilla de freno delantera,PAS-001,Frenos,Frenos del Sur,5,2,1200,2400,Estante B2,Par delantero
+Cadena 428H x 120,CAD-001,Transmision,MotoPartes SA,4,2,2800,5600,Deposito C,Para moto 110cc
+Bujia NGK CR7HSA,BUJ-001,Electricidad,Distribuidora Norte,12,4,650,1300,Caja Elect,Para Honda/Yamaha 125
+Aceite 20W50 1L,ACE-001,Lubricantes,Lubricentro Max,15,5,1800,3200,Estante A3,Mineral 4T
+Llanta trasera 90/90-19,LLA-001,Neumaticos,Neumaticos Centro,2,1,8500,16000,Deposito C,Para enduro
+Amortiguador trasero par,AMO-001,Suspension,Suspension Pro,3,1,4200,8400,Deposito B,Universal 250mm
+Kit arrastre 428,KIT-001,Transmision,MotoPartes SA,6,2,3500,7000,Estante C1,Pinhao+corona+cadena
+Manija de freno izquierda,MAN-001,Manubrio,Accesorios Moto,9,3,480,960,Caja Man,Universal con espejo
+Luz trasera LED 12V,LUZ-001,Electricidad,Electro Moto,7,3,950,1900,Caja Elect,Roja, universal
