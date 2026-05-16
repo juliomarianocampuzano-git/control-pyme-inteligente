@@ -1,0 +1,107 @@
+============================================================
+   SOPORTE Y RECOMENDACIONES
+   Control PyME Inteligente Offline v1.1
+============================================================
+
+
+------------------------------------------------------------
+ANTES DE CONTACTAR SOPORTE
+------------------------------------------------------------
+
+Si el sistema no funciona correctamente, pruebe primero:
+
+1. Cerrar el navegador y volver a abrir dashboard.html
+2. Verificar que usa Google Chrome o Microsoft Edge
+3. Revisar que los nombres de columnas del CSV sean
+   exactamente los que aparecen en las plantillas
+4. Verificar que las fechas esten en formato AAAA-MM-DD
+5. Cerrar otras pestanas del navegador si va lento
+
+
+------------------------------------------------------------
+ERRORES COMUNES Y SOLUCION
+------------------------------------------------------------
+
+PROBLEMA: El archivo no carga
+SOLUCION: Verifique que el nombre de las columnas sea
+          correcto. Use las plantillas como referencia.
+
+PROBLEMA: Los datos no aparecen despues de cargar
+SOLUCION: Revise el formato de fechas (AAAA-MM-DD).
+          Revise que no haya celdas vacias en columnas
+          obligatorias como fecha, nombre o monto.
+
+PROBLEMA: El sistema va lento
+SOLUCION: Cierre otras pestanas del navegador.
+          Si tiene muchos datos, espere unos segundos.
+
+PROBLEMA: Se perdieron los datos
+SOLUCION: Restaure desde un backup (.json).
+          Si no tiene backup, los datos no se pueden
+          recuperar. Por eso es importante el backup.
+
+PROBLEMA: Los mensajes de WhatsApp no se abren
+SOLUCION: Verifique que el numero de WhatsApp en el
+          sistema sea correcto y sin espacios ni guiones.
+
+
+------------------------------------------------------------
+RECOMENDACIONES PARA EL PRIMER USO
+------------------------------------------------------------
+
+1. Cargue primero los datos de ejemplo (carpeta 4)
+   para ver como funciona el sistema antes de cargar
+   sus datos reales.
+
+2. Use las plantillas de la carpeta 3 como base.
+   Copie y complete con sus datos reales.
+
+3. Empiece con Productos, Clientes y Ventas.
+   Con esos tres archivos ya ve las acciones mas
+   importantes.
+
+4. Exporte un backup despues de cargar cada archivo
+   importante. No espere a tener todo cargado.
+
+5. Revise las acciones inteligentes cada vez que
+   abra el sistema. Son su guia diaria.
+
+
+------------------------------------------------------------
+MANTENIMIENTO RECOMENDADO
+------------------------------------------------------------
+
+CADA DIA:
+- Revisar acciones inteligentes al abrir el sistema
+
+CADA SEMANA:
+- Cargar ventas nuevas
+- Revisar cobros pendientes
+- Revisar stock bajo
+- Exportar backup
+
+CADA MES:
+- Revisar y actualizar lista de precios
+- Revisar gastos del mes
+- Guardar backup en pendrive o nube
+- Actualizar datos de proveedores
+
+
+------------------------------------------------------------
+PARA SOPORTE
+------------------------------------------------------------
+
+Para asistencia tecnica, capacitacion o personalizacion
+del sistema, contacte al proveedor que le entrego
+este producto.
+
+Tenga a mano:
+- Version del sistema (v1.1)
+- Descripcion del problema
+- Que archivo estaba cargando (si aplica)
+- Captura de pantalla del error (si aplica)
+
+============================================================
+   Control PyME Inteligente Offline v1.1
+   Version final comercial - Mayo 2026
+============================================================
