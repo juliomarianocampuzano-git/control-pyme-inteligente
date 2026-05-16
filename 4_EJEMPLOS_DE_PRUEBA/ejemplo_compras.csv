@@ -1,0 +1,7 @@
+fecha,proveedor,producto,categoria,cantidad,costo_unitario,total,estado,notas
+2026-04-01,Distribuidora Norte,Filtro de aceite Honda,Filtros,20,850,17000,Pagada,Reposicion mensual
+2026-04-01,MotoPartes SA,Cadena 428H x 120,Transmision,10,2800,28000,Pagada,
+2026-04-08,Lubricentro Max,Aceite 20W50 1L,Lubricantes,30,1800,54000,Pagada,Precio lista abril
+2026-04-15,Frenos del Sur,Pastilla de freno delantera,Frenos,10,1200,12000,Pagada,
+2026-05-01,Distribuidora Norte,Bujia NGK CR7HSA,Electricidad,20,650,13000,Pendiente,Pedido en curso
+2026-05-03,MotoPartes SA,Kit arrastre 428,Transmision,8,3500,28000,Pendiente,Entrega estimada 10/05
