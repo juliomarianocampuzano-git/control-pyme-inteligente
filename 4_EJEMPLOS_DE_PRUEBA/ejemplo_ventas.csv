@@ -1,0 +1,9 @@
+fecha,cliente,producto,categoria,cantidad,precio_unitario,total,estado,vencimiento,whatsapp,email,notas
+2026-04-05,Ramiro Fernandez,Filtro de aceite Honda,Filtros,2,1700,3400,Pagada,,3515551234,ramiro@gmail.com,
+2026-04-10,Taller Lopez,Cadena 428H x 120,Transmision,5,5600,28000,Pagada,,3517778899,taller.lopez@outlook.com,Compra mayorista
+2026-04-15,Maria Gomez,Bujia NGK CR7HSA,Electricidad,3,1300,3900,Pagada,,3514442233,,
+2026-04-20,Distribuidora El Gaucho,Aceite 20W50 1L,Lubricantes,20,3200,64000,Pendiente,2026-05-20,3519876000,compras@elgaucho.com,Factura B-0045
+2026-04-25,Ramiro Fernandez,Pastilla de freno delantera,Frenos,1,2400,2400,Pendiente,2026-05-10,3515551234,ramiro@gmail.com,
+2026-04-28,Taller Lopez,Kit arrastre 428,Transmision,3,7000,21000,Vencida,2026-04-30,3517778899,taller.lopez@outlook.com,Sin respuesta
+2026-05-02,Juan Perez,Luz trasera LED 12V,Electricidad,2,1900,3800,Pagada,,3513334455,,
+2026-05-05,Maria Gomez,Manija de freno izquierda,Manubrio,1,960,960,Pendiente,2026-05-25,3514442233,,
