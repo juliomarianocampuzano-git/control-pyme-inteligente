@@ -1,0 +1,457 @@
+============================================================
+   MANUAL DE USUARIO
+   Control PyME Inteligente Offline v1.1
+   Version final comercial - Mayo 2026
+============================================================
+
+
+------------------------------------------------------------
+1. BIENVENIDA
+------------------------------------------------------------
+
+Este sistema fue pensado para duenos de PyMEs que trabajan
+con Excel y necesitan ordenar su negocio sin depender de
+sistemas complejos, servidores ni tecnicos especializados.
+
+Con Control PyME Inteligente Offline puede:
+- Cargar sus archivos de Excel o CSV directamente
+- Ver toda la informacion de su negocio en un solo lugar
+- Saber a quien cobrar, que comprar y que pagar
+- Generar mensajes para WhatsApp y Email con un clic
+- Guardar una copia de seguridad de sus datos
+
+No necesita internet para usar la app principal.
+No guarda datos en la nube sin su autorizacion.
+Todo queda en su computadora.
+
+
+------------------------------------------------------------
+2. QUE PUEDE HACER EL SISTEMA
+------------------------------------------------------------
+
+CARGA DE DATOS:
+- Cargar Excel o CSV con productos, ventas, compras y mas
+- Separar negocios por empresa (multiempresa)
+
+CONTROL DE NEGOCIO:
+- Controlar productos y lista de precios
+- Controlar stock y saber que comprar
+- Registrar ventas y saber cuanto cobrar
+- Registrar compras y gastos
+- Registrar servicios y vencimientos proximos
+- Controlar clientes y proveedores
+
+ACCIONES INTELIGENTES:
+- Ver que productos tienen stock bajo
+- Ver a quien debe cobrar hoy
+- Ver que precios revisar
+- Ver que vencimientos se acercan
+
+COMUNICACIONES:
+- Generar mensajes de cobro para WhatsApp
+- Generar mensajes para Email
+- Abrir WhatsApp Web con mensaje preparado
+- Abrir Gmail, Outlook o Email del equipo
+
+SEGURIDAD:
+- Exportar backup completo de sus datos
+- Separacion total entre empresas
+
+
+------------------------------------------------------------
+3. COMO ABRIR EL SISTEMA
+------------------------------------------------------------
+
+Paso 1: Entre a la carpeta 1_APP_PORTABLE
+Paso 2: Haga doble clic sobre dashboard.html
+Paso 3: El sistema se abrira en su navegador
+
+IMPORTANTE:
+Use Google Chrome o Microsoft Edge.
+Si no abre correctamente, haga clic derecho sobre
+dashboard.html y elija "Abrir con" > Google Chrome.
+
+El sistema funciona localmente. No necesita servidor.
+
+
+------------------------------------------------------------
+4. CREAR UNA EMPRESA
+------------------------------------------------------------
+
+Al abrir el sistema por primera vez, debe crear una empresa.
+
+Datos que se solicitan:
+- Nombre del negocio (obligatorio)
+- Tipo de negocio (comercio, taller, estudio, etc.)
+- Moneda (pesos, dolares, etc.)
+- Porcentaje de ganancia sugerida
+- Responsable o encargado
+- Numero de WhatsApp
+- Email de contacto
+
+IMPORTANTE:
+Cada empresa queda separada del resto.
+No se mezclan datos entre empresas.
+
+
+------------------------------------------------------------
+5. CAMBIAR DE EMPRESA
+------------------------------------------------------------
+
+Si tiene varias empresas cargadas:
+1. Busque el boton "Cambiar empresa"
+2. Seleccione la empresa que desea ver
+3. El sistema cargara los datos de esa empresa
+
+Cada empresa tiene su propio espacio de datos.
+Cambiar de empresa no borra datos.
+
+
+------------------------------------------------------------
+6. CREAR OTRA EMPRESA
+------------------------------------------------------------
+
+Para agregar un nuevo negocio al sistema:
+1. Busque el boton "+ Crear otra empresa"
+2. Complete los datos del nuevo negocio
+3. El sistema creara un espacio separado
+
+La empresa anterior sigue existiendo con sus datos.
+Puede volver a ella cuando quiera.
+
+
+------------------------------------------------------------
+7. MODO INVITADO
+------------------------------------------------------------
+
+El sistema permite usarse en modo invitado:
+- No requiere iniciar sesion con Gmail ni Outlook
+- Los datos se guardan en esta computadora/navegador
+- Tiene acceso a todas las funciones principales
+
+En modo invitado, los datos quedan en el navegador.
+Si limpia el historial del navegador puede perder datos.
+SIEMPRE exporte backup regularmente.
+
+
+------------------------------------------------------------
+8. CARGAR DATOS DESDE EXCEL O CSV
+------------------------------------------------------------
+
+El sistema acepta archivos Excel (.xlsx) y CSV (.csv).
+
+Puede cargar:
+- Productos / Lista de precios
+- Stock
+- Clientes
+- Proveedores
+- Ventas
+- Compras
+- Gastos
+- Servicios / Vencimientos
+
+RECOMENDACION:
+Use las plantillas incluidas en:
+3_PLANTILLAS_PARA_COMPLETAR/
+
+No invente nombres de columnas. Use exactamente
+los nombres que figuran en las plantillas.
+
+
+------------------------------------------------------------
+9. COMO COMPLETAR LAS PLANTILLAS
+------------------------------------------------------------
+
+1. Abra la plantilla correspondiente en Excel
+2. No cambie los nombres de las columnas (primera fila)
+3. Complete los datos a partir de la segunda fila
+4. Guarde como CSV (.csv) o deje en formato Excel (.xlsx)
+5. Cargue el archivo desde el sistema
+
+Si usa datos propios (no plantillas), verifique que
+las columnas coincidan con los nombres esperados.
+
+
+------------------------------------------------------------
+10. PRODUCTOS Y LISTA DE PRECIOS
+------------------------------------------------------------
+
+Columnas principales:
+- nombre: nombre del producto
+- codigo: codigo propio (ej: PROD-001)
+- categoria: categoria o rubro del producto
+- proveedor: proveedor habitual
+- stockActual: cantidad actual en deposito
+- stockMinimo: cantidad minima antes de comprar
+- costoUnitario: precio de costo
+- precioVenta: precio de venta al publico
+- ubicacion: donde esta guardado el producto
+- notas: observaciones adicionales
+
+CALCULO DE GANANCIA:
+Si el costo es $1.000 y el porcentaje de ganancia
+configurado es 100%, el sistema sugiere precio de $2.000.
+
+
+------------------------------------------------------------
+11. STOCK
+------------------------------------------------------------
+
+El stock permite saber cuanto tiene de cada producto.
+
+Columnas principales:
+- nombre: nombre del producto
+- codigo: codigo del producto
+- stockActual: cantidad actual
+- stockMinimo: cantidad minima antes de comprar
+
+El sistema muestra automaticamente que productos
+necesitan reposicion (stockActual <= stockMinimo).
+
+
+------------------------------------------------------------
+12. CLIENTES
+------------------------------------------------------------
+
+Columnas principales:
+- nombre: nombre del cliente
+- telefono: telefono de contacto
+- whatsapp: numero para WhatsApp (sin espacios)
+- email: correo electronico
+- direccion: direccion del cliente
+- categoria: tipo de cliente (minorista, mayorista, etc.)
+- notas: observaciones
+
+
+------------------------------------------------------------
+13. PROVEEDORES
+------------------------------------------------------------
+
+Columnas principales:
+- nombre: nombre del proveedor
+- telefono: telefono de contacto
+- whatsapp: numero para WhatsApp
+- email: correo electronico
+- direccion: direccion del proveedor
+- categoria: categoria del proveedor
+- contacto: nombre de la persona de contacto
+- notas: observaciones
+
+
+------------------------------------------------------------
+14. VENTAS
+------------------------------------------------------------
+
+Columnas principales:
+- fecha: fecha de la venta (formato AAAA-MM-DD)
+- cliente: nombre del cliente
+- producto: nombre del producto vendido
+- categoria: categoria del producto
+- cantidad: unidades vendidas
+- precio_unitario: precio por unidad
+- total: total de la venta
+- estado: Pagada, Pendiente o Vencida
+- vencimiento: fecha de vencimiento del cobro
+- whatsapp: WhatsApp del cliente
+- email: email del cliente
+- notas: observaciones
+
+
+------------------------------------------------------------
+15. COMPRAS
+------------------------------------------------------------
+
+Columnas principales:
+- fecha: fecha de la compra
+- proveedor: nombre del proveedor
+- producto: producto comprado
+- categoria: categoria del producto
+- cantidad: unidades compradas
+- costo_unitario: precio de costo por unidad
+- total: total de la compra
+- estado: Pagada o Pendiente
+- notas: observaciones
+
+
+------------------------------------------------------------
+16. GASTOS
+------------------------------------------------------------
+
+Columnas principales:
+- fecha: fecha del gasto
+- concepto: descripcion del gasto
+- categoria: categoria (limpieza, marketing, etc.)
+- proveedor: a quien se le paga
+- monto: monto del gasto
+- estado: Pagado o Pendiente
+- vencimiento: fecha de vencimiento
+- medio_pago: como se paga (efectivo, transferencia, etc.)
+- notas: observaciones
+
+
+------------------------------------------------------------
+17. SERVICIOS Y VENCIMIENTOS
+------------------------------------------------------------
+
+Para controlar pagos periodicos como:
+- Alquiler del local
+- Luz, gas, agua
+- Internet y telefono
+- Impuestos y tasas
+- Seguros
+- Otros vencimientos mensuales
+
+Columnas principales:
+- servicio: nombre del servicio
+- proveedor: a quien se le paga
+- categoria: tipo de servicio
+- monto: monto estimado
+- vencimiento: fecha de vencimiento
+- estado: Pendiente o Pagado
+- notas: observaciones
+
+
+------------------------------------------------------------
+18. ACCIONES INTELIGENTES
+------------------------------------------------------------
+
+El sistema revisa automaticamente los datos cargados
+y muestra sugerencias como:
+
+- QUE COMPRAR: productos con stock bajo o en cero
+- A QUIEN COBRAR: ventas vencidas o proximas a vencer
+- QUE REVISAR: precios que podrian estar desactualizados
+- QUE PAGAR: servicios y gastos con vencimiento proximo
+- QUE REVISAR HOY: resumen de prioridades del dia
+
+IMPORTANTE:
+No es inteligencia artificial conectada a internet.
+Es un motor local que analiza los datos que usted cargo.
+Funciona completamente offline.
+
+
+------------------------------------------------------------
+19. WHATSAPP Y EMAIL
+------------------------------------------------------------
+
+El sistema puede preparar mensajes de cobro o consulta.
+
+Opciones disponibles:
+- Copiar el mensaje al portapapeles
+- Abrir WhatsApp Web con el mensaje listo
+- Abrir Gmail con el mensaje preparado
+- Abrir Outlook con el mensaje preparado
+- Abrir el Email del equipo (mailto)
+
+El sistema NO envia mensajes solo.
+NO guarda contrasenas ni tokens.
+El usuario decide cuando y como enviar.
+
+
+------------------------------------------------------------
+20. CONEXIONES Y MODO DE USO
+------------------------------------------------------------
+
+MODO INVITADO:
+Funciona sin iniciar sesion en servicios externos.
+
+CONEXIONES EXTERNAS (requieren internet):
+- Gmail: abre ventana de redaccion con mensaje
+- Outlook: abre ventana de redaccion con mensaje
+- WhatsApp Web: abre chat con mensaje preparado
+- Email del equipo (mailto): abre cliente de correo
+
+PAGOS:
+Los registros de pago son manuales.
+No hay integracion bancaria automatica por defecto.
+
+CONEXIONES AVANZADAS:
+Las integraciones automaticas (API real de Gmail,
+MercadoPago, bancos) requieren configuracion adicional
+por parte del proveedor del sistema.
+
+
+------------------------------------------------------------
+21. BACKUP (copia de seguridad)
+------------------------------------------------------------
+
+Un backup es una copia de todos sus datos.
+
+POR QUE HACERLO:
+- Si cambia de computadora
+- Si reinstala el navegador
+- Si limpia el historial del navegador
+- Por seguridad ante cualquier imprevisto
+
+COMO EXPORTARLO:
+1. Busque el boton "Exportar backup" en el sistema
+2. Guarde el archivo .json que se descarga
+3. Copie ese archivo a la carpeta 5_BACKUPS_DEL_CLIENTE
+
+DONDE GUARDAR COPIAS:
+- Carpeta 5_BACKUPS_DEL_CLIENTE en esta carpeta
+- Un pendrive
+- Google Drive o Dropbox personal
+
+COMO IMPORTAR (recuperar datos):
+1. Busque el boton "Importar backup"
+2. Seleccione el archivo .json del backup
+3. Sus datos quedan restaurados
+
+
+------------------------------------------------------------
+22. SEGURIDAD Y PRIVACIDAD
+------------------------------------------------------------
+
+- Los datos quedan guardados localmente en el navegador
+- Cada empresa tiene sus datos separados
+- No se comparten datos con terceros automaticamente
+- No ingresar contrasenas bancarias en la app
+- No compartir la computadora si hay datos sensibles
+- Hacer backups regularmente
+
+El sistema NO tiene acceso a internet automatico.
+NO sube datos a ninguna nube sin autorizacion.
+
+
+------------------------------------------------------------
+23. QUE HACER SI ALGO NO FUNCIONA
+------------------------------------------------------------
+
+Si la app no carga o muestra errores:
+1. Cierre el navegador y vuelva a abrir dashboard.html
+2. Verifique que esta usando Chrome o Edge
+3. Si un Excel no carga, revise que las columnas
+   coincidan con los nombres de las plantillas
+4. Use las plantillas incluidas para evitar errores
+5. Si el problema persiste, contacte al soporte
+
+Errores comunes:
+- CSV con columnas mal escritas: use las plantillas
+- Datos no aparecen: verifique el formato de fechas
+- El sistema lento: cierre otras pestanas del navegador
+
+
+------------------------------------------------------------
+24. RECOMENDACIONES DE USO SEMANAL
+------------------------------------------------------------
+
+CADA SEMANA:
+- Cargar nuevas ventas
+- Revisar deudas pendientes de clientes
+- Revisar stock bajo
+- Revisar vencimientos proximos
+- Exportar backup y guardar copia
+
+CADA MES:
+- Revisar lista de precios
+- Actualizar proveedores
+- Revisar gastos del mes
+- Guardar backup en pendrive o nube
+
+
+============================================================
+   Manual de Usuario - Control PyME Inteligente Offline v1.1
+   Version final comercial - Mayo 2026
+   Para soporte, contacte al proveedor del sistema.
+============================================================
