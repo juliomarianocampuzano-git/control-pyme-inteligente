@@ -1,0 +1,6 @@
+servicio,proveedor,categoria,monto,vencimiento,estado,notas
+Alquiler local,Inmobiliaria Centro,alquiler,45000,2026-05-10,Pendiente,Vence el 10 de cada mes
+Internet Claro,Claro,internet,3500,2026-05-12,Pendiente,Debito automatico
+Seguro del local,Zurich,seguro,4800,2026-05-20,Pendiente,Renovacion anual en agosto
+Municipalidad tasa comercial,Municipalidad,impuesto,2200,2026-05-31,Pendiente,Bimestral
+Luz EPEC,EPEC,servicios,8200,2026-05-18,Pendiente,Estimado segun promedio
